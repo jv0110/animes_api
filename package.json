@@ -1,0 +1,32 @@
+{
+  "name": "animes_api",
+  "version": "1.0.0",
+  "description": "An animes API where you can get anime names",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "animes_api"
+  },
+  "keywords": [
+    "animes",
+    "api",
+    "nodejs",
+    "express"
+  ],
+  "author": "jv0110",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.21.16",
+    "mysql2": "^2.2.5"
+  }
+}
